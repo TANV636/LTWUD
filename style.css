@@ -43,11 +43,16 @@ header.sticky {
 }
 
 header:hover {
-    background: rgba(255, 255, 255, 1);
+    background: #99CCFF;
 }
 
 .logo {
     flex: 1;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
 }
 
 .menu {
@@ -86,8 +91,12 @@ header:hover {
     font-size: 12px!important;
 }
 
+.menu>li>a {
+    color: white;
+}
+
 .menu li a {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     display: block;
     line-height: 20px;
@@ -145,7 +154,7 @@ header:hover {
 .aspect-ratio-169 {
     display: block;
     position: relative;
-    padding-top: 56.25%;
+    padding-top: 45%;
     transition: 0.25s;
 }
 
